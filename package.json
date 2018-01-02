@@ -1,0 +1,18 @@
+{
+  "name": "node-tg-native",
+  "version": "0.0.1",
+  "description": "Module to call native TDLib functions",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "k-egor-smirnov",
+  "license": "MIT",
+  "dependencies": {
+    "ffi": "^2.2.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
