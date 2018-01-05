@@ -2,6 +2,10 @@
 
 > Module to call native TDLib functions
 
+## Warning
+
+"ffi" module doesn't compile on node >= 7
+
 ## Installation
 
 ```sh
@@ -11,14 +15,14 @@ $ npm install --save node-tg-native
 ## Usage
 
 ```js
-const nodeTgNative = require('node-tg-native')
-const td = new nodeTgNative()
+const nodeTgNative = require("node-tg-native");
+const td = new nodeTgNative();
 
-td.create()
+td.create();
 
-td.subscribe((response) => {
-  console.log(response)
-})
+td.subscribe(response => {
+  console.log(response);
+});
 ```
 
 ## License
