@@ -1,10 +1,13 @@
-# node-tg-native [![NPM version](https://badge.fury.io/js/node-tg-native.svg)](https://npmjs.org/package/node-tg-native)
+# node-tg-native
+
+[![NPM version](https://badge.fury.io/js/node-tg-native.svg)](https://npmjs.org/package/node-tg-native)
 
 > Module to call native TDLib functions
 
+
 ## Warning
 
-"ffi" module doesn't compile on node >= 7
+"ffi" module doesn't compile on node <= 9 (see https://github.com/node-ffi/node-ffi/pull/439)
 
 ## Installation
 
